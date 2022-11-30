@@ -6,3 +6,14 @@
 6. Cross it on the ticket as complete
 7. Checkout to the created branch and repeat # 4 until finishing the bigger task
 8. Mark "issue" as resolved on Github
+
+
+# Issues
+
+- doc.1
+- sitemap-and-styles
+- jekyll barebones
+- layouts and includes
+- collections
+- scripts for content generation
+- doc.2
