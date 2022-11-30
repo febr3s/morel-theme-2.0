@@ -1127,12 +1127,11 @@ input[type=search]:focus {
   text-align: center;
 }
 
-.basis {
-  flex-basis: calc(100% - 2rem);
-  flex-grow: 0;
-  padding: 1rem;
-}
-
+/*.basis {
+    flex-basis: calc(100% - 2rem);
+    flex-grow: 0;
+    padding: 1rem;
+}*/
 /* BLOG */
 .post-cover {
   flex-basis: calc(100% - 0.001rem);
