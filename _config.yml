@@ -1,0 +1,75 @@
+title: MOREL
+description: Mobile Open Resilient Electronic Library
+permalink: /:categories/:year/:month/:day/:title:output_ext
+img: logo.png
+background: trama-5.jpg
+
+author : 
+  name : MOREL
+  site: https://morel.la
+  image : avatar.png
+  email : proyectomorel@gmail.com
+  github : 
+  twitter : 
+  instagram:
+
+excerpt_separator: "<!-- more -->"
+
+collections:
+  cities:
+    output: true
+    permalink: /cities/:name
+  books:
+    output: true
+    permalink: /obras/:name
+  authors:
+    output: true
+    permalink: /authors/:name
+  publishers:
+    output: true
+    permalink: /publishers/:name
+  repositories:
+    output: true
+    permalink: /repositories/:name
+  periods:
+    output: true 
+    permalink: /periodos/:name
+  chriterias:
+    output: true
+    permalink: /criterios/:name
+  abouts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "books"
+    values:
+      layout: "book"
+  - scope:
+      path: ""
+      type: "cities"
+    values:
+      layout: "city"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "publishers"
+    values:
+      layout: "publisher"
+  - scope:
+      path: ""
+      type: "repositories"
+    values:
+      layout: "repository"
+
+theme: morel-theme
