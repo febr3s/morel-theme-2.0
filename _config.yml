@@ -71,5 +71,3 @@ defaults:
       type: "repositories"
     values:
       layout: "repository"
-
-theme: morel-theme
