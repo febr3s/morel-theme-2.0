@@ -883,6 +883,12 @@ label.morel:hover {
   }
 }
 /* MEDIA QUERIES FOR FLEX GRID */
+.basis {
+  flex-basis: calc(100% - 2rem);
+  flex-grow: 0;
+  padding: 1rem;
+}
+
 /*xs styling*/
 @media screen and (max-width: 375px) {
   .price .title {
@@ -925,6 +931,16 @@ label.morel:hover {
 }
 .post {
   height: auto !important;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /*forms*/
@@ -1117,21 +1133,6 @@ input[type=search]:focus {
   cursor: context-menu;
 }
 
-.text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/*.basis {
-    flex-basis: calc(100% - 2rem);
-    flex-grow: 0;
-    padding: 1rem;
-}*/
 /* BLOG */
 .post-cover {
   flex-basis: calc(100% - 0.001rem);
