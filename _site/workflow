@@ -4,16 +4,17 @@
 4. Code and commit until finishing one of the smaller tasks. 
 5. Checkout to main and merge from the created branch
 6. Cross it on the ticket as complete
-7. Checkout back to the created branch and repeat # 4 until finishing the bigger task
+7. Checkout back to the created branch and repeat form # 4 until finishing the bigger task
 8. Mark "issue" as resolved on Github
+9. Create a new "issue"
 
 
 # Issues
 
-- doc.1
-- sitemap-and-styles
-- jekyll barebones
-- layouts and includes
+- doc.1 X
+- sitemap-and-styles X
+- jekyll init X
 - collections
+- layouts and includes
 - scripts for content generation
 - doc.2
