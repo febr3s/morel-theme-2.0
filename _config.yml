@@ -21,7 +21,7 @@ collections:
     permalink: /cities/:name
   books:
     output: true
-    permalink: /obras/:name
+    permalink: /books/:name
   authors:
     output: true
     permalink: /authors/:name
@@ -31,12 +31,9 @@ collections:
   repositories:
     output: true
     permalink: /repositories/:name
-  periods:
-    output: true 
-    permalink: /periodos/:name
   chriterias:
     output: true
-    permalink: /criterios/:name
+    permalink: /chriteria/:name
   abouts:
     output: true
 
