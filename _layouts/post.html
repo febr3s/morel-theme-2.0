@@ -1,0 +1,39 @@
+---
+layout: default-blog
+---
+<div class="main-container post-container">
+ <!--Obra del día-->
+    <div class="obra-dia">
+    <div class="post-cover" style="">
+      <div class="ficha-title">
+        <h1>
+          {{ page.title }}
+        </h1>
+      </div> 
+    </div>
+    <div class="workarround">
+      
+    </div>
+    <div class="ficha-container sombra-solida blog" style="">
+      <div class="ficha-extract">
+        {% if page.img %}
+        <div style="text-align: center;padding:6rem 0px 2.5rem 0px;">
+          <img src="{{ BASE_PATH }}assets/img/{{ page.img }}" style="height: 60vh;width: auto;max-width: 100%;" class="responsive" alt="">
+        </div>
+        {% endif %}
+        <div class="blog-post">
+                  {{ content }}
+
+        </div>
+      </div>
+      
+      <div class="ficha-metadata">
+         {% if page.author != "MOREL" %} Escrito por <span class="metadata-input">{{ page.author }}</span> // El <span class="metadata-input">{{ page.date | date_to_string }}</span> en <span class="metadata-input">{{ ciudad }}</span>// Clasificado en <span class="metadata-input">morel</span>, <span class="metadata-input">metadatos latinoamericanos</span>, <span class="metadata-input">repositorios</span>.{% endif %}      
+      </div>
+      
+      
+    </div>
+   
+                
+  </div>
+</div>

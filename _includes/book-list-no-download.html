@@ -1,0 +1,16 @@
+  <!--lista 1 -->
+        <div class="row">
+            <!--LOOP DE LISTA 1-->
+            {% assign books = site.data.books | where_exp: "item", "item.Download == '' or item.Download == nil" | sample: 8 %}
+            {% for book in books | limit: 7 %}
+            {% include book-list-base.html %}
+            {% endfor %}
+            <div class="basis masobras">
+                <div class="container">
+                    <label for="listas"><img src="{{ BASE_PATH }}/assets/img/tema/+obras.png" class="image sombra"></label>
+                    <div>
+                        <a href="no-descargables"><div class="text"><label class="button" for="lista-obras">&nbsp;VER +</label></div></a>
+                    </div>
+                </div> 
+            </div>
+        </div>
