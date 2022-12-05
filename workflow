@@ -14,7 +14,9 @@
 - doc.1 X
 - sitemap-and-styles X
 - jekyll init X
-- collections
-- layouts and includes
-- scripts for content generation
+- collections x
+- layouts, pages and includes x
+- transfer MOREL collection to csv
+- move and apply scripts for content generation
+- test
 - doc.2
