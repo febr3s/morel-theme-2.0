@@ -20,3 +20,9 @@
 - move and apply scripts for content generation
 - test
 - doc.2
+
+# log
+
+12 - 5
+
+Created the page to render the collection as a table in morelcoop.github.io/md-to-csv. Edited the exported csv from Zotero to define the table fields based on the ESALT fields. Need to continue exporting the fields and trying to import them into zotero.
