@@ -1,3 +1,5 @@
+# Workflow
+
 1. Create an "issue" (bigger task) with an enhacement or documentation tag
 2. Unpack it into smaller tasks
 3. Create a branch with the same name of the issue
@@ -16,13 +18,20 @@
 - jekyll init X
 - collections x
 - layouts, pages and includes x
-- transfer MOREL collection to csv
+- transfer MOREL.LA collection to csv
+- Import MOREL.LA collection to Zotero
 - move and apply scripts for content generation
 - test
 - doc.2
+
 
 # log
 
 12 - 5
 
 Created the page to render the collection as a table in morelcoop.github.io/md-to-csv. Edited the exported csv from Zotero to define the table fields based on the ESALT fields. Need to continue exporting the fields and trying to import them into zotero.
+
+
+12 - 6
+
+Found the formula for finding and replacing <p> for <br> in _books. Fixed line breaks until carlos gagni. Still need to contrast that poem with the faccismilar.
